@@ -47,9 +47,11 @@ header a:visited {
 }
 
 header a:hover,
-header a:focus {
+header a:focus,
+.list-no-style .current {
   color: var(--hover-accent);
 }
+
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
