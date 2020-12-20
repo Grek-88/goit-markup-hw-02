@@ -3,8 +3,8 @@
   --primary-font-color: #757575;
   --fonts-accent-color: #212121;
   --hover-accent: #2196f3;
-  /* разкоментировать везде!!! color: #ffffff; + color: rgba(255, 255, 255, 0.6);*/
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -55,6 +55,9 @@ header a:focus,
 /*=============/Header==============*/
 
 /*=============Лозунг==============*/
+.hero-baclkground {
+  background: #2f303a;
+}
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -62,7 +65,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .button,
@@ -72,7 +75,7 @@ h1 {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 /*=============/Лозунг==============*/
 
@@ -132,8 +135,12 @@ h1 {
 /*=============/Наша команда==============*/
 
 /*=============/footer==============*/
-.address [href="#"] {
-  /* color: #FFFFFF; */
+
+.address [href="#"],
+.address [href="#"]:visited,
+.address [href="#"]:hover,
+.address [href="#"]:focus {
+  color: #ffffff;
 }
 
 .address a,
@@ -144,7 +151,7 @@ h1 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 /*=============/footer==============*/
 
