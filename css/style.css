@@ -1,4 +1,4 @@
-/*=============Общие==============+*/
+/*=============Общие==============*/
 :root {
   --primary-font-color: #757575;
   --fonts-accent-color: #212121;
@@ -9,6 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  font-size: 14px;
 }
 
 a {
@@ -38,17 +39,16 @@ a {
   color: var(--hover-accent);
 }
 
-header a,
-header a:visited {
+.naviganion,
+.naviganion:visited {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--fonts-accent-color);
 }
 
-header a:hover,
-header a:focus,
+.naviganion:hover,
+.naviganion:focus,
 .list-no-style .current {
   color: var(--hover-accent);
 }
@@ -59,7 +59,7 @@ header a:focus,
 .hero-background {
   background: #2f303a;
 }
-h1 {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -70,7 +70,7 @@ h1 {
 }
 
 .button,
-.button a:visited {
+.button:visited {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -81,17 +81,15 @@ h1 {
 /*=============/Лозунг==============*/
 
 /*=============About==============*/
-.about h3 {
+.about-title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--fonts-accent-color);
 }
 
-.about p {
-  font-size: 14px;
+.about-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
@@ -99,7 +97,7 @@ h1 {
 /*=============/About==============*/
 
 /*=============Деятельность==============*/
-.work h2 {
+.work-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -110,7 +108,7 @@ h1 {
 /*=============/Деятельность==============*/
 
 /*=============Наша команда==============*/
-.team h2 {
+.team-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1666;
@@ -125,7 +123,7 @@ h1 {
   letter-spacing: 0.03em;
 }
 
-.team h3 {
+.team-name {
   font-weight: 500;
   color: var(--fonts-accent-color);
 }
@@ -152,16 +150,16 @@ h1 {
 .address .contacts:hover,
 .address .contacts:focus {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-light);
+  opacity: 0.6;
 }
 /*=============/footer==============*/
 
 /*=============Portfolio.html==============*/
 .menu,
-.menu a {
+.menu-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -169,12 +167,12 @@ h1 {
   letter-spacing: 0.03em;
   color: var(--fonts-accent-color);
 }
-.menu a:hover,
-.menu a:focus {
+.menu-list:hover,
+.menu-list:focus {
   color: var(--color-light);
 }
 
-.products h3 {
+.products-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -182,7 +180,7 @@ h1 {
   color: var(--fonts-accent-color);
 }
 
-.products p {
+.products-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
